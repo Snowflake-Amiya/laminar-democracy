@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    name: Reproduce reference results (seed 20261003)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pinned dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run experiments E1-E6 (~3 min)
+        run: python sim/run_experiments.py
+
+      - name: Assert results match the paper
+        run: python sim/verify_results.py
+
+      - name: Regenerate figures
+        run: python sim/make_charts.py
+
+      - name: Upload regenerated results and figures
+        uses: actions/upload-artifact@v4
+        with:
+          name: reproduced-results-and-figures
+          path: |
+            sim/results/
+            sim/figs/
+          retention-days: 30

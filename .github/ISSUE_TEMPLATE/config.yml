@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/snowflake-amiya/laminar-democracy/discussions
+    about: Questions, open debate, and "what if" scenarios. Structured objections get an issue template.
+  - name: The white paper (PDF)
+    url: https://github.com/snowflake-amiya/laminar-democracy/blob/main/paper/laminar-democracy-white-paper.pdf
+    about: Read Section 7 (Objections & Replies) before filing an objection; it may already contain the response you are challenging.

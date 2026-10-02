@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this simulation code or the white paper, please cite it as below."
+title: "Laminar Democracy: A Design and Simulation Study of Tiered Direct Democracy with Adaptive Epistemic Friction"
+type: software
+authors:
+  - alias: "S. Amiya"
+repository-code: "https://github.com/snowflake-amiya/laminar-democracy"
+abstract: "A tiered direct-democracy design with adaptive epistemic friction: domain-limited civic standing, lower tier-specific referendum signature thresholds, universal veto, and a seed-deterministic agent-based simulation comparing two-tier vs. three-tier systems."
+keywords:
+  - democracy
+  - governance
+  - civic-tech
+  - epistocracy
+  - agent-based-modeling
+  - voting-systems
+license: MIT
+version: 0.1.0
+date-released: "2026-10-03"

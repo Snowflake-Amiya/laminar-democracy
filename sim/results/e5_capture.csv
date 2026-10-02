@@ -1,0 +1,10 @@
+scenario,electorate,delta_mis,bribe_share,p_capture,p_capture_with_veto
+basic referendum - weak misinformation,all,0.3,0.0,0.5648,0.061
+tier-2 path - weak misinformation,t2,0.3,0.0,0.0578,0.0084
+tier-3 path - weak misinformation,t3,0.3,0.0,0.0092,0.0008
+basic referendum - strong misinformation,all,0.8,0.0,0.7286,0.4554
+tier-2 path - strong misinformation,t2,0.8,0.0,0.081,0.0444
+tier-3 path - strong misinformation,t3,0.8,0.0,0.0108,0.0074
+tier-3 path - bribe 5% of pool,t3,0.0,0.05,0.0178,0.0002
+tier-3 path - bribe 15% of pool,t3,0.0,0.15,0.054,0.001
+tier-2 path - bribe 15% of pool,t2,0.0,0.15,0.2012,0.0046

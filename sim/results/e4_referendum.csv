@@ -1,0 +1,7 @@
+parameterization,path,pool_size,pool_engagement,threshold_signatures,threshold_poolshare,success_rate,median_days
+raw y=2 z=2,basic (all citizens),2000,0.538,100.0,0.05,1.0,61.8
+raw y=2 z=2,tier-2 members,600,0.615,50.0,0.083,1.0,89.6
+raw y=2 z=2,tier-3 members,200,0.639,50.0,0.25,0.008,180.0
+adjusted y=2 z=5,basic (all citizens),2000,0.551,100.0,0.05,1.0,60.3
+adjusted y=2 z=5,tier-2 members,600,0.629,50.0,0.083,1.0,87.9
+adjusted y=2 z=5,tier-3 members,200,0.665,20.0,0.1,0.999,99.0
